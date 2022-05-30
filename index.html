@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Users/Sales/Desktop/potfolio/css/portfolio.css">
+    <link rel="shortcut icon" href="C:\Users\Sales\Desktop\potfolio\img\letter-mk-logo-icon-design-template-elements-2BRA014.jpg">
+    <link rel="stylesheet" href="/Users/Sales/Desktop/potfolio/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <title>Mikheil Kakhidze-Portfolio</title>
+</head>
+<header>
+    <h1>Mikheil Kakhidze</h1>
+    <div class="dropdown">
+        <button class="dropbutton">Menu</button>
+        <div class="dropdown-content">
+           <a href="./contact.html" target="_blank">Contact</a>
+           <a href="#aboutme">About Me</a>
+           <a href="#experience">My Experience</a>
+           <a href="#education">My Education</a>
+        </div>
+    </div>
+</header>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+        mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  function topFunction() {
+    document.documentElement.scrollTop = 0;
+  }
+    </script>
+    <div class="wrapper">
+        <div class="block">
+            <div class="block_row">
+                <div id="aboutme" class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <h1>About Me</h1>
+                        <div class="img">
+                            <img src="C:\Users\Sales\Desktop\potfolio\img\download.png" alt="manicon">
+                        </div>
+                      </div>
+                      <div class="flip-card-back">
+                        <h1>Mikheil Kakhidze</h1>
+                        <p class="texti">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut augue ut libero pharetra accumsan quis et est. Suspendisse justo urna, ornare eget vulputate at, aliquet nec mauris. Nullam ultrices elit metus, at facilisis libero ultrices vel. Suspendisse id consequat felis, ac luctus quam. Phasellus porta lacus risus, nec faucibus odio consectetur in. Nulla dictum, leo et interdum pellentesque, neque nunc porta ligula, ac hendrerit nisi nunc accumsan odio. Praesent orci nisl, tincidunt quis lacinia id, imperdiet in tortor. Aliquam et egestas eros. Nam congue dui vitae sapien pellentesque, id pulvinar quam efficitur. Etiam at nibh ac mi hendrerit facilisis eu sit amet turpis. Curabitur ut porttitor orci, non euismod libero. Vivamus ante leo, pretium sit amet odio vitae, fermentum aliquet justo. Etiam convallis felis non tempus viverra. Duis odio ipsum, luctus sed tempor in, lacinia et tortor. Aliquam convallis dignissim aliquet. Praesent ac nunc nec lectus ultrices dapibus sit amet eu nunc.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                    <div id="education" class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <h1>Education</h1>
+                            
+                          </div>
+                          <div class="flip-card-back" id="flipcardedu">
+                            <div class="container_education">
+                              <h1 id="education" class="education">Education</h1><br><br>
+                              <h3 class="education">IVANE JAVAKHISHVILI TBILISI STATE UNIVERSITY (TSU) 2009-2013</h3>
+                              <p class="education">Faculty of Economics and Business, Bachelor of Business Administration</p><br><br>
+                              <h3 class="education">Digital Institute 2022-present</h3> 
+                              <p class="education">Intro To Software Development</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                <div id="experience" class="flip-card">
+                    <div class="flip-card-inner">
+                         <div class="flip-card-front">
+                             <h1>Experience</h1>
+                         </div>
+                         <div class="flip-card-back">
+                            <div class="container_experience">
+                                <div class="row_experience">
+                                     <div id="col-pirveli" class="col_experience">
+                                       <div clss="clone">
+                                         <h4>Facebook Clone</h4>
+                                         <a href="https://github.com/mishokakhidze/Sunny" target="_blank"><img src="./img/Fbclone.png" alt="Fbclone" width="150px" height="100px"></a>
+                                       </div>
+                                     </div>
+                                     <div id="col-meore" class="col_experience">
+                                      <div clss="clone">
+                                        <h4>ShoppingList Clone</h4>
+                                        <a href="https://github.com/mishokakhidze/shoppinglist" target="_blank"><img src="./img/shoppinglistclone.png" alt="shoppinglistclone" width="150px" height="100px"></a>
+                                      </div>
+                                     </div>
+                                     <div id="col-mesame" class="col_experience">
+                                      <div clss="clone">
+                                        <h4>Calculator Clone</h4>
+                                        <a href="https://github.com/mishokakhidze/caclculator" target="_blank"><img src="./img/calcclone.png" alt="calcclone" width="150px" height="100px"></a>
+                                      </div>
+                                     </div>
+                                     <div id="col-meotxe" class="col_experience">
+                                      <div clss="clone">
+                                        <h4>Wikipedia Clone</h4>
+                                        <a href="" target="_blank"><img src="./img/wikipediaclone.png" alt="calcclone" width="150px" height="100px"></a>
+                                      </div>
+                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+                <div class="block_column_four">
+                    <div class="block_item">Conntact Me
+                        <div class="row_colona">
+                            <div class="colona">
+                              <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                            </div>
+                            <div class="colona">
+                              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                            </div>
+                            <div class="colona">
+                                <input type="text" class="form-control" placeholder="Subject" aria-label="Subject">
+                              </div>
+                              <div class="colona_message">
+                                <textarea id="text" name="text" class="form-control_message" rows="4" cols="50"></textarea>
+                              </div>
+                              <div class="colona_submit">
+                                <button type="button" class="btn btn-dark">Submit</button>
+                              </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+             <div class="sakontaqto">Fynd Me
+                <div class="media">
+                    <a target="_blank" href="https://www.facebook.com/">
+                         <i class="fa-brands fa-facebook"></i>
+                     </a>
+                </div>
+                <div class="media">
+                    <a target="_blank" href="https://www.instagram.com/?hl=en">
+                         <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+             <div class="sakontaqto">
+                <i class="fa-solid fa-phone"></i>
+                <div class="phone_mail">
+                    <a href="callto">+995577330040</a>
+                </div>
+             </div>
+             <div class="sakontaqto">
+                <i class="fa-solid fa-at"></i>
+                <div class="phone_mail">
+                    <a href="mailto">mishokakhidze@gmail.com</a>
+                </div>
+             </div>
+         </div>
+        <div class="copywright">
+            <p class="foot_er"> © 2022 </p>
+            <p class="foot_er">Portfolio</p>
+            <p class="foot_er"> All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
