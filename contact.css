@@ -16,7 +16,9 @@ body {
 }
 
 .colona{
-    margin: 0px;
+    width: 310px;
+    margin: 0.5px;
+    padding: 0.5px;
 }
 
 .row_colona {
@@ -45,6 +47,7 @@ body {
 h3 {
     margin: 0;
     text-align: center;
+    font-size: 3.75rem !important;
 }
 
 .pirveli3 {
@@ -54,4 +57,5 @@ flex-direction: column;
 
 .contactme {
     padding: 0;
+    
 }
